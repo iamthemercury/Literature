@@ -3,6 +3,39 @@
 <head>
   <title>Literature - Beloved</title>
   <meta charset="utf-8">
+  <style>
+    body{
+      margin:0;
+    }
+    a {
+      color:green;
+      text-decoration: none;
+    }
+    h1 {
+      font-size:50px;
+      text-align:center;
+      border-bottom:2px solid gray;
+      margin:0;
+      padding:40px;
+    }
+    ol{
+      border-right:2px solid gray;
+      width:150px;
+      margin:0;
+      padding:20px;
+    }
+    #grid{
+      display: grid;
+      grid-template-columns: 230px 1fr
+    }
+    #grid ol{
+      padding-left:39px;
+    }
+    #grid #article{
+      padding-left: 25px;
+      padding-top: 15px;
+    }
+  </style>
   <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-0WNV3GZFYS"></script>
 <script>
@@ -15,11 +48,13 @@
 </head>
 <body>
   <h1><a href="index.html">Literature</a></h1>
+  <div id="grid">
   <ol>
-    <li><a href="1.html">Beloved</a></li>
+    <li><a href="1.html" style="color:purple;text-decoration:underline">Beloved</a></li>
     <li><a href="2.html">The Giver</a></li>
     <li><a href="3.html">Number the Stars</a></li>
   </ol>
+  <div id="article">
   <h2>Beloved</h2>
     <img src="roses.jpg" width="50%">
     <p>
@@ -28,6 +63,8 @@
     The novel won the Pulitzer Prize for Fiction in 1988 and was a finalist for the 1987 National Book Award. It was adapted as a 1998 movie of the same name, starring Oprah Winfrey. A survey of writers and literary critics compiled by The New York Times ranked it as the best work of American fiction from 1981 to 2006.
     </p>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/CPqsOfgnHsw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+  </div>
     <p>
       <div id="disqus_thread"></div>
       <script>
